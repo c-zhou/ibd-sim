@@ -1,6 +1,6 @@
 # ibd-sim
 
-Identity by descendent data dimulation
+Identity by descent data simulation
 
 quick start
 
@@ -16,7 +16,7 @@ the physical length of the chromosome will be 100000000bp
 
 the genetic length of the chromosome will be 100cM 
 
-the position of the centramere will at 80cM
+the position of the centromere will at 80cM
 
 the mean distance of the adjacent SNPs will be 500bp, as well as the standard deviation, since the distances follow a Poisson distribution 
 

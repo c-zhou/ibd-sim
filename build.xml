@@ -1,8 +1,8 @@
-<project name="pedsim" default="dist" basedir=".">
+<project name="ibdsim" default="dist" basedir=".">
     
     <description>
-        pedsim: family data simulation toolkit, version 1.0
-        The pedsim project may be distributed under the terms of 
+        ibdsim: identity by descent data simulation toolkit, version 1.0
+        The ibdsim project may be distributed under the terms of 
         the GNU Lesser General Public License
     </description>
 
@@ -16,7 +16,7 @@
     <property name="build" location="build"/>
     <property name="lib" location="lib"/>
     
-    <property name="pedsim" location="${dist}\pedsim.jar"/>
+    <property name="ibdsim" location="${dist}\ibdsim.jar"/>
     
     <path id="build.class.path">
         <fileset dir="${lib}">
@@ -76,7 +76,7 @@
             </fileset>
         </copy>
         
-        <jar jarfile="${pedsim}" basedir="${build}">
+        <jar jarfile="${ibdsim}" basedir="${build}">
             <manifest>
                 <attribute name="Built-by" value="${user.name}" />
                 <!-- <attribute name="Main-Class" value="org.sweetpotatogenomics.app.Main"/> -->
