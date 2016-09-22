@@ -53,7 +53,7 @@ public class PedSim {
 		options.addOption( "c", "chromosome", true, "chromosome.");
 		options.addOption( "S", "p-size", true, "chromosome physical size.");
 		options.addOption( "G", "g-size", true, "chromosome genetic size.");
-		options.addOption( "C", "centramere", true, "chromosome centramere position (genetic).");
+		options.addOption( "C", "centramere", true, "chromosome centromere position (genetic).");
 		options.addOption( "d", "d-avg", true, "average distance between adjcent SNPs (physical). ");
 		options.addOption( "l", "log", true, "log file");
 		try {
